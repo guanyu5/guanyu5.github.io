@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="時尚AR美妝功能，呈現迷人自拍大頭照，可自訂美肌效果，輕鬆打造最美的自己！">
+    <meta property="og:title" content="SNOW美肌妝容自拍相機">
+    <meta property="og:description" content="時尚AR美妝功能，呈現迷人自拍大頭照，可自訂美肌效果，輕鬆打造最美的自己！">
+    <meta property="og:url" content="https://snow.me/">
+    <meta property="og:image" content="images/snow-logo.png">
+    <meta property="og:type" content="website">
+    <title>SNOW美肌妝容自拍相機</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body id="#Top">
+    <!-- 頁首 -->
+    <header class="header fixed fixed-top">
+        <div class="header-flex">
+            <span class="btn-inner">
+                <button class="btn btn-bars" type="button" id="BtnBar">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </span>
+            <div class="header-head">
+                <div class="img-inner">
+                    <a href="#Top">
+                        <img class="img-resp" src="images/img_snow_blue.png" alt="SNOW美肌妝容自拍相機" width="200">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-foot" id="HeaderFoot">
+            <nav class="navi">
+                <ul class="nav-ls">
+                    <li class="nav-li"><a class="btn" href="#Special"> 特色</a></li>
+                    <li class="nav-li"><a class="btn" href="#Contact"> 聯繫</a></li>
+                    <li class="nav-li"><a class="btn" target="_blank"
+                            href="https://www.facebook.com/snowapptw/?brand_redir=559654604172973"><i
+                                class="fab fa-facebook-square"></i>Facebook</a></li>
+                    <li class="nav-li"><a class="btn" target="_blank" href="https://www.instagram.com/snow_taiwan/"><i
+                                class="fab fa-instagram"></i>Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 上方banner -->
+    <div class="banr">
+        <div class="container mx-auto banr-cntr">
+            <div class="banr-head text-center">
+                <div class="banr-logo">
+                    <div class="img-inner">
+                        <img class="img-resp" src="images/logo-white2.png" alt="SNOW">
+                    </div>
+                </div>
+                <div class="banr-tit">
+                    <div class="img-inner">
+                        <img class="img-resp" src="images/snow-word2.png" alt="SNOW">
+                    </div>
+                    <h1 class="banr-desc">美肌妝容自拍相機</h1>
+                </div>
+            </div>
+            <div class="banr-foot text-center">
+                <div class="btn-inner">
+                    <a class="btn btn-download btn-apple" href="https://apps.apple.com/app/id1022267439">App Store下載</a>
+                    <a class="btn btn-download btn-google"
+                        href="https://play.google.com/store/apps/details?id=com.campmobile.snow&referrer=snow.me">Google下載</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 特色 -->
+    <div class="base base-two" id="Special">
+        <div class="container mx-auto base-cntr">
+            <div class="base-head text-right ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/function1.png" width="250" height="518" alt="SNOW">
+                </div>
+            </div>
+            <div class="base-body ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/cloud1.png" alt="SNOW">
+                </div>
+                <p class="base-desc base-desc-active">接受最適合自己的推薦臉型</p>
+                <p class="base-desc">今天拍照角度不好或最近變胖了<br>都完全可以做調整啦！<br>拉長、內推輕輕鬆鬆，<br>呈現最完美、最漂亮的自己沒有問題 ♡</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="base base-two l-flip" id="Special2">
+        <div class="container mx-auto base-cntr">
+            <div class="base-head ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/function2.png" width="250" height="518" alt="SNOW">
+                </div>
+            </div>
+            <div class="base-body text-right ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/cloud2.png" alt="SNOW">
+                </div>
+                <p class="base-desc base-desc-active">打造最適合我的彩妝風格</p>
+                <p class="base-desc">相機總是會吃掉我的彩妝顏色<br>
+                    但沒關係，只要使用 SNOW 就完全不用怕<br>
+                    彩妝效果功能不只方便也好看！<br>風格還很多樣，各種Style都有啦<br>
+                    當想嘗試不同彩妝風格也超級方便啦 ♡</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="base base-two" id="Special3">
+        <div class="container mx-auto base-cntr">
+            <div class="base-head text-right ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/function3.png" width="250" height="518" alt="SNOW">
+                </div>
+            </div>
+            <div class="base-body ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/cloud3.png" alt="SNOW">
+                </div>
+                <p class="base-desc base-desc-active">超過1000種人氣貼圖</p>
+                <p class="base-desc">有時候只單純拍照太無趣了～<br>
+                    搭配各種人氣貼圖濾鏡，還有小遊戲可以玩呢！<br>
+                    超級可愛又有趣♡♡<br>
+                    就算素顏拍照也完全沒問題啦！</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="base base-two l-flip" id="Special4">
+        <div class="container mx-auto base-cntr">
+            <div class="base-head ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/function4.png" width="250" height="518" alt="SNOW">
+                </div>
+            </div>
+            <div class="base-body text-right ani-move-top">
+                <div class="img-inner">
+                    <img class="img-resp" src="images/cloud4.png" alt="SNOW">
+                </div>
+                <p class="base-desc base-desc-active">一個濾鏡打造想要的色調</p>
+                <p class="base-desc">照片太多一張張修好麻煩<br>
+                    SNOW 濾鏡功能一鍵調好色調<br>
+                    擁有的濾鏡從自然到特別效果都有，風格十足～<br>
+                    輕輕鬆鬆讓發文版面統一又好看♡<br>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 聯繫 -->
+    <div class="contact" id="Contact" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#26c8ee+0,26c8ee+28,2ccfe9+49,2ecde9+55,2fcae6+58,31cbe7+62,31c8e6+63,33c8e8+66,34c2e5+69,36c2e8+71,36bce6+74,39bae8+77,38b7e6+79,38b4e9+80,39afe7+85,3caaea+89,3da4e8+100 */
+    background: #26c8ee; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #26c8ee 0%, #26c8ee 28%, #2ccfe9 49%, #2ecde9 55%, #2fcae6 58%, #31cbe7 62%, #31c8e6 63%, #33c8e8 66%, #34c2e5 69%, #36c2e8 71%, #36bce6 74%, #39bae8 77%, #38b7e6 79%, #38b4e9 80%, #39afe7 85%, #3caaea 89%, #3da4e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #26c8ee 0%,#26c8ee 28%,#2ccfe9 49%,#2ecde9 55%,#2fcae6 58%,#31cbe7 62%,#31c8e6 63%,#33c8e8 66%,#34c2e5 69%,#36c2e8 71%,#36bce6 74%,#39bae8 77%,#38b7e6 79%,#38b4e9 80%,#39afe7 85%,#3caaea 89%,#3da4e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #26c8ee 0%,#26c8ee 28%,#2ccfe9 49%,#2ecde9 55%,#2fcae6 58%,#31cbe7 62%,#31c8e6 63%,#33c8e8 66%,#34c2e5 69%,#36c2e8 71%,#36bce6 74%,#39bae8 77%,#38b7e6 79%,#38b4e9 80%,#39afe7 85%,#3caaea 89%,#3da4e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26c8ee', endColorstr='#3da4e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    ">
+        <div class="container mx-auto contact-cntr">
+            <div class="cont-box">
+                <div class="cont-left">
+                    <div class="cont-flex">
+                        <h3 class="cont-tit">聯繫地址</h3>
+                        <div class="btn-inner">
+                            <a href="https://goo.gl/maps/P8j2vio54kPhNVNW6" target="_blank">
+                            <button class="btn cont-btn" type="button"><i class="fas fa-map-marker-alt"></i>
+                            </button></a>
+                        </div>
+                    </div>
+                    <p class="cont-desc cont-map">京畿道城南市盆唐區盆唐內谷路117番路<br>
+                        Krafton 大厦 8層，郵編區號：13529</p>
+                    <p class="cont-desc">email : support@snow.me</p>
+                </div>
+                <div class="cont-right">
+                    <div class="map-inner">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d25366.85241130432!2d127.14321999999999!3d37.369571!3m2!1i1024!2i768!4f13.1!2m1!1zQnVuZGFuZy1kb25nIOebhuWUkOWNgOWfjuWNl-W4guS6rOeVv-mBkyDljZfpn5M!5e0!3m2!1szh-TW!2stw!4v1615448406247!5m2!1szh-TW!2stw"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
